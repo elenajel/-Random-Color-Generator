@@ -1,0 +1,25 @@
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.colourBtn {
+  padding: 0.25rem 0.5rem;
+  margin-right: 0.25rem;
+  border: 3px solid #fefefe;
+  border-radius: 7px;
+  color: #fefefe;
+  background: rgba(0, 0, 0, 0.55);
+  font-size: 1.5rem;
+  cursor: pointer;
+  outline: none;
+}
+.colourBtn:hover {
+  background: rgb(19, 19, 19);
+}
+
+h2 {
+  color: black;
+}
